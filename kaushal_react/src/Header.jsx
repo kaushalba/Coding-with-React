@@ -1,7 +1,7 @@
 function Header(){
   return(
     <header>
-        <h1>heyy.. i am using react</h1>
+        <h1>heyy.. i am using react.js</h1>
     </header>
 
   );
