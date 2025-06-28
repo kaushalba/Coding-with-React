@@ -1,0 +1,44 @@
+.card{
+  border: 1px solid rgb(48, 38, 38);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(98, 54, 9) ;
+  padding: 10px;
+  margin: 20px;
+  text-align:center;
+  max-width: 150px;
+  display: inline-block;
+  background-color: #ffffff;
+
+}
+
+.card:hover {
+  background-color: #c3deff;
+  cursor: pointer;
+}
+
+.card .pic{
+  max-width: 100%;
+  height: auto;
+  border-radius:10% ;
+  margin-bottom: 0.2px;
+
+
+}
+.card .pic:hover{
+max-width: 101%;
+}
+
+.card .course{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  margin:0;
+
+}
+
+body, html, #root {
+  background-color: #e8f5ff;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
